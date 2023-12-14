@@ -16,14 +16,12 @@ export default function ResultImc(props) {
                 <Text style={styles.numberImc}>{props.resultImc}</Text>
             </View>
             <View>
-                {props.resultImc != '' ? (
                  <TouchableOpacity onPress={onShare} style={styles.textImage}>
                          <Icon name="share" size={30} />
                      <Text >
                          Compartilhar
                      </Text>
                 </TouchableOpacity>
-                ) : <View/>}
             </View>
         </View>
     )
