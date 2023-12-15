@@ -1,2 +1,2 @@
-# React-Native
+# React-Native - Calculadora IMC
 Mini projeto utilizando react-native
